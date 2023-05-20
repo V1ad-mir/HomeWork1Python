@@ -11,6 +11,6 @@ numberStorona1 = int(input("Введите количество долек по 
 numberStorona2 = int(input("Введите количество долек по второйй стороне шоколадки : "))
 numberDolek = int(input("Введите количество долек, которое необходимо отломить  : "))
 if (numberDolek%numberStorona1==0 and numberDolek/numberStorona1<numberStorona2) or (numberDolek%numberStorona2==0 and numberDolek/numberStorona2<numberStorona1):
-    print('yes')
+    print('Шоколадку возможно разломать согласно условию')
 else: 
-    print('no')
+    print('Шоколадку не возможно разломать согласно условию')
